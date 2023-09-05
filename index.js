@@ -1,6 +1,6 @@
 const express = require("express");
 const admin = require("firebase-admin");
-const serviceAccount = require("./keys.json");
+const serviceAccount = require("./etc/secrets/keys.json");
 var cors = require("cors");
 
 admin.initializeApp({
