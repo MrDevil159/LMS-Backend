@@ -23,7 +23,7 @@ app.use(
 
 // Define a route
 app.get("/", (req, res) => {
-  res.send("Hello, Firebase and Express!");
+  res.send("Galat Jageh Aagaye Ho. Unauthorized Access, Chale Jaao");
 });
 
 app.get("/user/:uid", checkAdmin, (req, res) => {
